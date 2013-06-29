@@ -11145,3 +11145,447 @@ Served asset /statuses.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-29 10:00:24 -0400
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/feed" for 127.0.0.1 at 2013-06-29 10:06:12 -0400
+Processing by StatusesController#index as HTML
+  [1m[36mStatus Load (0.2ms)[0m  [1mSELECT "statuses".* FROM "statuses" [0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  Rendered statuses/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-29 10:06:12 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-06-29 10:06:12 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2013-06-29 10:06:12 -0400
+Served asset /profiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-29 10:06:12 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-06-29 10:06:12 -0400
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-29 10:06:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-29 10:06:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-29 10:06:12 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.js?body=1" for 127.0.0.1 at 2013-06-29 10:06:12 -0400
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2013-06-29 10:06:12 -0400
+Served asset /profiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-29 10:06:12 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/Lewis%20Ritz" for 127.0.0.1 at 2013-06-29 10:06:27 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"Lewis Ritz"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."profile_name" = 'Lewis Ritz' LIMIT 1
+  [1m[36mStatus Load (0.1ms)[0m  [1mSELECT "statuses".* FROM "statuses" WHERE "statuses"."user_id" = 4[0m
+  Rendered profiles/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-29 10:06:27 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-06-29 10:06:27 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-29 10:06:27 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2013-06-29 10:06:27 -0400
+Served asset /profiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-06-29 10:06:27 -0400
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-29 10:06:27 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-29 10:06:27 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-29 10:06:27 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2013-06-29 10:06:27 -0400
+Served asset /profiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.js?body=1" for 127.0.0.1 at 2013-06-29 10:06:27 -0400
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-29 10:06:27 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/Lewis%20Ritz" for 127.0.0.1 at 2013-06-29 10:12:05 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"Lewis Ritz"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."profile_name" = 'Lewis Ritz' LIMIT 1
+  [1m[36mStatus Load (0.2ms)[0m  [1mSELECT "statuses".* FROM "statuses" WHERE "statuses"."user_id" = 4[0m
+  Rendered profiles/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 20ms (Views: 17.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-06-29 10:12:05 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-29 10:12:05 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2013-06-29 10:12:05 -0400
+Served asset /profiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-29 10:12:05 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-06-29 10:12:05 -0400
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-29 10:12:05 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-29 10:12:05 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-29 10:12:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2013-06-29 10:12:05 -0400
+Served asset /profiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-29 10:12:05 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.js?body=1" for 127.0.0.1 at 2013-06-29 10:12:05 -0400
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/feed" for 127.0.0.1 at 2013-06-29 10:12:06 -0400
+Processing by StatusesController#index as HTML
+  [1m[35mStatus Load (0.2ms)[0m  SELECT "statuses".* FROM "statuses" 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  Rendered statuses/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-29 10:12:06 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-06-29 10:12:06 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2013-06-29 10:12:06 -0400
+Served asset /profiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-06-29 10:12:06 -0400
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-29 10:12:06 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-29 10:12:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-29 10:12:06 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2013-06-29 10:12:06 -0400
+Served asset /profiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.js?body=1" for 127.0.0.1 at 2013-06-29 10:12:06 -0400
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-29 10:12:06 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-29 10:12:06 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/feed" for 127.0.0.1 at 2013-06-29 10:13:08 -0400
+Processing by StatusesController#index as HTML
+  [1m[36mStatus Load (0.2ms)[0m  [1mSELECT "statuses".* FROM "statuses" [0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  Rendered statuses/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 98ms (Views: 97.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-29 10:13:08 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2013-06-29 10:13:08 -0400
+Served asset /profiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-06-29 10:13:08 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-29 10:13:08 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-06-29 10:13:08 -0400
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-29 10:13:08 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-29 10:13:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-29 10:13:08 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2013-06-29 10:13:08 -0400
+Served asset /profiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.js?body=1" for 127.0.0.1 at 2013-06-29 10:13:08 -0400
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-29 10:13:08 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/feed" for 127.0.0.1 at 2013-06-29 10:13:10 -0400
+Processing by StatusesController#index as HTML
+  [1m[35mStatus Load (0.2ms)[0m  SELECT "statuses".* FROM "statuses" 
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  Rendered statuses/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-29 10:13:10 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2013-06-29 10:13:10 -0400
+Served asset /profiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-06-29 10:13:10 -0400
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-06-29 10:13:10 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-29 10:13:10 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-29 10:13:10 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-29 10:13:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-29 10:13:10 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2013-06-29 10:13:10 -0400
+Served asset /profiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.js?body=1" for 127.0.0.1 at 2013-06-29 10:13:10 -0400
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-29 10:13:10 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/feed" for 127.0.0.1 at 2013-06-29 10:14:07 -0400
+Processing by StatusesController#index as HTML
+  [1m[36mStatus Load (0.2ms)[0m  [1mSELECT "statuses".* FROM "statuses" [0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  Rendered statuses/index.html.erb within layouts/application (43.0ms)
+Completed 500 Internal Server Error in 45ms
+
+ActionView::Template::Error (undefined method `gravatar_url' for #<User:0x000001029d0aa0>):
+    8: <div class="status">
+    9:   <div class="row">
+    10:     <div class="span1">
+    11:       <%= image_tag status.user.gravatar_url %>
+    12:     </div>
+    13:     <div class="span7">
+    14:       <strong><%= status.user.full_name %></strong>
+  app/views/statuses/index.html.erb:11:in `block in _app_views_statuses_index_html_erb___361323559941653986_2165477900'
+  app/views/statuses/index.html.erb:7:in `each'
+  app/views/statuses/index.html.erb:7:in `_app_views_statuses_index_html_erb___361323559941653986_2165477900'
+  app/controllers/statuses_controller.rb:8:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.3ms)
+
+
+Started GET "/feed" for 127.0.0.1 at 2013-06-29 10:16:57 -0400
+Processing by StatusesController#index as HTML
+  [1m[36mStatus Load (0.1ms)[0m  [1mSELECT "statuses".* FROM "statuses" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  Rendered statuses/index.html.erb within layouts/application (46.0ms)
+Completed 500 Internal Server Error in 53ms
+
+ActionView::Template::Error (undefined method `downcased_email' for "lewisritz@lewisritz.com":String):
+    8: <div class="status">
+    9:   <div class="row">
+    10:     <div class="span1">
+    11:       <%= image_tag status.user.gravatar_url %>
+    12:     </div>
+    13:     <div class="span7">
+    14:       <strong><%= status.user.full_name %></strong>
+  app/models/user.rb:30:in `gravatar_url'
+  app/views/statuses/index.html.erb:11:in `block in _app_views_statuses_index_html_erb___361323559941653986_2165477900'
+  app/views/statuses/index.html.erb:7:in `each'
+  app/views/statuses/index.html.erb:7:in `_app_views_statuses_index_html_erb___361323559941653986_2165477900'
+  app/controllers/statuses_controller.rb:8:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.1ms)
+
+
+Started GET "/feed" for 127.0.0.1 at 2013-06-29 10:17:27 -0400
+Processing by StatusesController#index as HTML
+  [1m[36mStatus Load (0.1ms)[0m  [1mSELECT "statuses".* FROM "statuses" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  Rendered statuses/index.html.erb within layouts/application (64.7ms)
+Completed 200 OK in 105ms (Views: 98.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-29 10:17:27 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-06-29 10:17:27 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2013-06-29 10:17:27 -0400
+Served asset /profiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-29 10:17:27 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-06-29 10:17:27 -0400
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-29 10:17:27 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-29 10:17:27 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-29 10:17:27 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2013-06-29 10:17:27 -0400
+Served asset /profiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.js?body=1" for 127.0.0.1 at 2013-06-29 10:17:27 -0400
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-29 10:17:27 -0400
+Served asset /application.js - 304 Not Modified (0ms)
